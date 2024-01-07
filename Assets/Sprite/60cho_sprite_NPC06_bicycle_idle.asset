@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 60cho_sprite_NPC06_bicycle_idle
+  m_Rect:
+    serializedVersion: 2
+    x: 0.07612038
+    y: 641
+    width: 351.84778
+    height: 343.9239
+  m_Offset: {x: -1.0485881E-05, y: 8.038064}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 50
+  m_Pivot: {x: 0.49999997, y: 0.52337164}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RenderDataKey:
+    00000000000000000000000000000000: 0
+  m_AtlasTags: []
+  m_SpriteAtlas: {fileID: 0}
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 51e58b21efe42514eb6793a51feca0a8, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 78
+      topology: 0
+      firstVertex: 0
+      vertexCount: 28
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 1b0001001a0002001a0001001900180017001600170018001500170016000200150016001400150002001300140002001100130002000000110002001200110000000f0011001200100011000f000c0010000f000e000c000f000d000c000e000a000c000d000b000c000a0008000b000a00090008000a00040008000900070008000400050007000400060005000400030000000100020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 28
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 560
+      _typelessdata: 0ad7a3bfd7a350400000000000000000000000000000c0bf1f85ab3f00000000000000000000000048e1babf0ad7a3bc000000000000000000000000cdccccbf3d0a1740000000000000000000000000ae47614014ae47bf0000000000000000000000005c8f42408fc255c0000000000000000000000000ae476140f6283cc000000000000000000000000014ae2740b81e65c000000000000000000000000000002040666666c0000000000000000000000000c3f5e83f3d0ad7be000000000000000000000000295ccf3f0000003f00000000000000000000000048e1ba3f666666c00000000000000000000000000000803f333353c00000000000000000000000000ad7a33e48e1fa3f0000000000000000000000000ad7233e1f854b40000000000000000000000000b81e85be85eb51400000000000000000000000003d0ad7bee17a14c0000000000000000000000000ec5138bfcdcc4cc0000000000000000000000000f6289cbf85eb5140000000000000000000000000a470bdbf666666c0000000000000000000000000ae4721c0666666c00000000000000000000000008fc235c0ae4761c0000000000000000000000000ae4741c014ae47bf0000000000000000000000008fc255c0b81e45c0000000000000000000000000ae4761c014aec7bf000000000000000000000000ae4761c0c3f528c00000000000000000000000005c8f22c0cdcc4cbe00000000000000000000000052b83ec0ae47613e000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.07612038
+      y: 641
+      width: 351.84778
+      height: 343.9239
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -5, y: 641}
+    settingsRaw: 67
+    uvTransform: {x: 50, y: 176, z: 50, w: 821}
+    downscaleMultiplier: 1
+  m_AtlasRD:
+    serializedVersion: 2
+    texture: {fileID: 0}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes: []
+    m_IndexBuffer:
+    m_VertexData:
+      m_CurrentChannels: 0
+      m_VertexCount: 0
+      m_Channels: []
+      m_DataSize: 0
+      _typelessdata:
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 0, y: 0}
+    settingsRaw: 0
+    uvTransform: {x: 0, y: 0, z: 0, w: 0}
+    downscaleMultiplier: 0
+  m_PhysicsShape: []

@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 60cho_sprite_EFFECT-heart02
+  m_Rect:
+    serializedVersion: 2
+    x: 723.02673
+    y: 927.0639
+    width: 147.96729
+    height: 95.85998
+  m_Offset: {x: 0.989605, y: 3.5061147}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 50
+  m_Pivot: {x: 0.506688, y: 0.5365754}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RenderDataKey:
+    00000000000000000000000000000000: 0
+  m_AtlasTags: []
+  m_SpriteAtlas: {fileID: 0}
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: d0022982ad612bf4599d8fce0d520d5b, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 66
+      topology: 0
+      firstVertex: 0
+      vertexCount: 28
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 1b001a001900180019001a00170019001800160017001800140017001600130014001600150014001300120011000e0010000e0011000f000e0010000c000e000f000d000e000c000a000d000c0009000a000c000b000a000900080007000600050006000700040006000500000004000500030004000000010003000000020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 28
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 560
+      _typelessdata: 5c8f423f0ad7633f0000000000000000000000003333333fec51b8bd0000000000000000000000005c8f423f3d0a573e0000000000000000000000008fc2f53d5c8f02bf0000000000000000000000008fc275bd5c8f02bf0000000000000000000000005c8fc2be0ad7633f0000000000000000000000001f85ebbe8fc2f53c000000000000000000000000e17a14bf295c4f3f000000000000000000000000e17a14bf3d0a573e000000000000000000000000333333bf7b142ebe000000000000000000000000ec5138bf000040bf000000000000000000000000333333bf14ae07bf000000000000000000000000cdcc4cbfb81e05be000000000000000000000000ae4761bf0ad783bf000000000000000000000000b81e85bf0ad783bf00000000000000000000000085eb91bfb81e05be0000000000000000000000003333b3bf000080be0000000000000000000000000000c0bf3333b3be0000000000000000000000000000c0bf48e13abf00000000000000000000000048e1ba3f52b89ebe0000000000000000000000008fc2b53f14ae07bf00000000000000000000000048e1ba3fd7a3f0be000000000000000000000000ae47a13f7b142ebe000000000000000000000000e17a943f48e13abf0000000000000000000000008fc2753f7b142ebe000000000000000000000000d7a3703f48e13abf0000000000000000000000001f856b3f3d0a57be0000000000000000000000001f856b3ff6281cbf000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 723.02673
+      y: 927.0639
+      width: 147.96729
+      height: 95.85998
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 647, y: 893}
+    settingsRaw: 67
+    uvTransform: {x: 50, y: 798, z: 50, w: 978.5}
+    downscaleMultiplier: 1
+  m_AtlasRD:
+    serializedVersion: 2
+    texture: {fileID: 0}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes: []
+    m_IndexBuffer:
+    m_VertexData:
+      m_CurrentChannels: 0
+      m_VertexCount: 0
+      m_Channels: []
+      m_DataSize: 0
+      _typelessdata:
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 0, y: 0}
+    settingsRaw: 0
+    uvTransform: {x: 0, y: 0, z: 0, w: 0}
+    downscaleMultiplier: 0
+  m_PhysicsShape: []

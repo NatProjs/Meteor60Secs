@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97768b505095fc4d69c0ba99bb54d081, type: 3}
+  m_Name: GoogleMobileAdSettings
+  m_EditorClassIdentifier:
+  IOS_InterstisialsUnitId: ca-app-pub-5865015593966357/2669680312
+  IOS_BannersUnitId: ca-app-pub-6101605888755494/1852640761
+  IOS_RewardedVideoAdUnitId: ca-app-pub-5865015593966357/3410511379
+  Android_InterstisialsUnitId: ca-app-pub-5865015593966357/2715542656
+  Android_BannersUnitId: ca-app-pub-5865015593966357/4960801737
+  Android_RewardedVideoAdUnitId: ca-app-pub-5865015593966357/9110965588
+  WP8_InterstisialsUnitId: ca-app-pub-5865015593966357/2715542656
+  WP8_BannersUnitId: ca-app-pub-5865015593966357/4960801737
+  WP8_RewardedVideoAdUnitId:
+  IsIOSSettinsOpened: 1
+  IsAndroidSettinsOpened: 1
+  IsWP8SettinsOpened: 1
+  EditorFillRate: 100
+  EditorFillRateIndex: 4
+  IsEditorTestingEnabled: 0
+  IsTestSettinsOpened: 1
+  ShowActions: 1
+  KeepManifestClean: 1
+  TagForChildDirectedTreatment: 0
+  testDevices:
+  - Name: Nexus 7
+    ID: 6B9FA8031AEFDC4758B7D8987F77A5A6
+    IsOpen: 0
+  - Name: iPhone 6s
+    ID: 5c2286dd9be7697bddd186fbd3301fc9
+    IsOpen: 1
+  - Name: Galaxy Edge 6
+    ID: 32A61B07B887D09DA3352C29ACF03D2F
+    IsOpen: 1
+  - Name: IPHONE6
+    ID: 83978e1a7b0f0485e2248fdd1bcde509
+    IsOpen: 1
+  IsKeywordsOpened: 0
+  DefaultKeywords: []

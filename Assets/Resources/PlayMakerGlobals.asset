@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 42938266, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
+  m_Name: PlayMakerGlobals
+  m_EditorClassIdentifier:
+  variables:
+    floatVariables:
+    - useVariable: 1
+      name: Audio Mixer Volume
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: BGM Manager Volume
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0.2
+    - useVariable: 1
+      name: BGM Manager small volume
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0.08
+    - useVariable: 1
+      name: male kiss int
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: player hit01 delay
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0.4
+    intVariables:
+    - useVariable: 1
+      name: female kill int
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: female kiss int
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: gun bullet quantity
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: killed int
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: kissed int
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: male kissed int
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    boolVariables:
+    - useVariable: 1
+      name: ICECREAM
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: IsDefensing?
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Language / KOR
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: dog kissed
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: from endinglist
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: player on the meteo
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    stringVariables:
+    - useVariable: 1
+      name: Bullet Hit Enemy Current State
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Current Language
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: Korean
+    - useVariable: 1
+      name: Current Language Dialogue
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Current Language Name
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: DIALOGUE / INDEX COMMAND
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Dialogue Text
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Ending List Call
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Ending1_string
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: Ending1
+    - useVariable: 1
+      name: Ending2_string
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: Ending2
+    - useVariable: 1
+      name: Ending3_string
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: Ending3
+    - useVariable: 1
+      name: Ending4_string
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: Ending4
+    - useVariable: 1
+      name: Ending5_string
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: Ending5
+    - useVariable: 1
+      name: Ending6_string
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: Ending6
+    - useVariable: 1
+      name: Ending7_string
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: Ending7
+    - useVariable: 1
+      name: Ending8_string
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: Ending8
+    - useVariable: 1
+      name: Ending9_string
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: Ending9
+    - useVariable: 1
+      name: Ending_Count_String
+      tooltip: PlayerPref int - 0 -FirstEnding 9 - LastEnding
+      showInInspector: 0
+      networkSync: 0
+      value: Ending_Count
+    - useVariable: 1
+      name: FirstEnding_String
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: FirstEnding
+    - useVariable: 1
+      name: LastEnding_String
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: LastEnding
+    - useVariable: 1
+      name: player attack state
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: punch
+    vector2Variables: []
+    vector3Variables:
+    - useVariable: 1
+      name: bullet destination
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    colorVariables: []
+    rectVariables: []
+    quaternionVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: Dialogue Box
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Dialogue Text Gameobject
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    objectVariables: []
+    materialVariables: []
+    textureVariables: []
+    arrayVariables: []
+    enumVariables: []
+    categories:
+    - 
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  events:
+  - SLOT PICKED
+  - Dialogue Called
+  - Dialogue Box Pressed
+  - Finish Text Animation
+  - Next Dialogue
+  - Dialogue End Called
+  - Call Guile Prefab
+  - hit by bullet
+  - pilsal speech bubble on
+  - Enemy hit by fist
+  - Player hit by bullet
+  - Combo Time Refresh
+  - Pause Behavior
+  - Player hit by claw
+  - Summon Minions
+  - Player Doing Something
+  - Enemy Hit by Combo3
+  - Speech Bubble On
+  - DEMO / UGUI / ON DROPPED
+  - UGUI / ON BEGIN DRAG
+  - UGUI / ON DRAG
+  - UGUI / ON DROP
+  - UGUI / ON END DRAG
+  - UGUI / ON BOOL VALUE CHANGED
+  - UGUI / ON CLICK
+  - UGUI / ON END EDIT
+  - UGUI / ON FLOAT VALUE CHANGED
+  - UGUI / ON INT VALUE CHANGED
+  - UGUI / ON POINTER CLICK
+  - UGUI / ON POINTER DOWN
+  - UGUI / ON POINTER ENTER
+  - UGUI / ON POINTER EXIT
+  - UGUI / ON POINTER UP
+  - UGUI / ON VECTOR2 VALUE CHANGED
+  - Selection Menu Called
+  - Player Dead
+  - UGUI / ON DROPPED
+  - Player Movement Enabled
+  - Player Movement Disabled
+  - PLAYER / PLAYER MOVEMENT DISABLE
+  - PLAYER / PLAYER MOVEMENT ENABLE
+  - MENU / CLOSE MENU
+  - MENU / CALL MENU
+  - MENU / CLOSE INVENTORY
+  - MENU / CALL INVENTORY
+  - DIALOGUE / Player Click
+  - DIALOGUE / CALL DIALOGUE
+  - DIALOGUE / END DIALOGUE
+  - XML / FOUND
+  - XML / LOOP
+  - XML / NOT FOUND
+  - MONEY / CHANGED
+  - LESS
+  - GREATER
+  - DOG / GOT ICECREAM
+  - go right
+  - go left
+  - ENEMY / HIT BY JUMP
+  - MAIN MAP to HOME
+  - PROCAMERA / MAINMAP to HOME
+  - PROCAMERA / HOME to MAINMAP
+  - JUMP ENABLE
+  - PROCAMERA / 24H to Mainmap
+  - PROCAMERA / MAINMAP to 24H
+  - Im Falling
+  - Im Jumping
+  - Im Landing
+  - boy dead
+  - ICECREAM / GOT
+  - go kiss
+  - go attack
+  - TIME SET
+  - WEAPON - BAT
+  - go punch
+  - ITEM / get bat
+  - ITEM / get gun
+  - PLAYER / ROCKET MOVEMENT ENABLE
+  - PLAYER / ROCKET MOVEMENT DISABLE
+  - SPACE / RUNAWAY
+  - SPACE / Meteo arrive
+  - Restart Level
+  - NUCLEAR BOMB / ENABLE
+  - found lover
+  - dog kissed
+  - go bullet hit
+  - CALL ENDING
+  - GAMESTART
+  - TIMER START
+  - database end
+  - FINISHED
+  - bat
+  - gun
+  - punch
+  - call menu
+  - cancel
+  - go ending
+  - go title
+  - ACTION COMMAND / BG
+  - ACTION COMMAND / BG BLACK
+  - ACTION COMMAND / BG WHITE
+  - ACTION COMMAND / BGM
+  - ACTION COMMAND / BGMOFF
+  - ACTION COMMAND / BGOFF
+  - ACTION COMMAND / BOOL_OFF
+  - ACTION COMMAND / BOOL_ON
+  - ACTION COMMAND / CHARACTEROFF
+  - ACTION COMMAND / CHECKBOOL
+  - ACTION COMMAND / CHECKFLOAT
+  - ACTION COMMAND / DIALOGUEBOX_OFF
+  - ACTION COMMAND / DIALOGUEBOX_ON
+  - ACTION COMMAND / FLOATADD
+  - ACTION COMMAND / MONEY / CHANGED
+  - ACTION COMMAND / NOTHING
+  - ACTION COMMAND / SELECTION_2
+  - ACTION COMMAND / SELECTION_WAIT
+  - ACTION COMMAND / SENDEVENT
+  - ACTION COMMAND / WAIT
+  - ARRAYMAKER / Error
+  - ARRAYMAKER / Finish
+  - BOOL / OFF
+  - BOOL / ON
+  - DIALOGUE COMMAND / ED
+  - DIALOGUE COMMAND / FIRST INDEX
+  - DIALOGUE COMMAND / NOTHING
+  - EQUAL
+  - NOT EQUAL
+  - SELECTION2 / A
+  - SELECTION2 / B
+  - attacked
+  - kissed
+  - missed
+  - DATABASE READ END
+  - ARRAYMAKER / loop
+  - END DIALOGUE
+  - NPC01-walk-dead
+  - dropkick on
+  - dropkick off
+  - go follow player
+  - go npc punch
+  - go hit
+  - go dead
+  - NUCLEAR BOMB / GET
+  - ACTION COMMAND / ANIMATION
+  - Enemy Dead
+  - call op
+  - found sexy
+  - not found
+  - SHOW AD
+  - ON SPRITE
+  - OFF SPRITE
+  - ACTION COMMAND / SET PLAYERPREF INT
+  - NUCLEAR BOMB / Nuclear_Earth_Ending2
+  - dead
+  - NUCLEAR BOMB / Nuclear_Meteo_Ending3
+  - NUCLEAR BOMB / Nucelar_Meteo_Ending3
+  - ACTION COMMAND / ENDING ADD
+  - ESCAPE SOLO / ENDING8
+  - ESCAPE SOLO / ENDING4
+  - ACTION COMMAND / SKIP BUTTON ON
+  - TUTORIAL CLOSE
+  - greater
+  - less
+  - view ending no
+  - view ending yes
+  - Close Game Score
+  - Show Game Score
+  - true
+  - dog dead
+  - Ending9
+  - FROM ENDINGLIST
+  - Ending8
+  - Ending7
+  - Ending1
+  - Ending2
+  - Ending3
+  - Ending4
+  - Ending5
+  - Ending6
+  - DATABASE READ COMPLETE
+  - DatabaseRead_Title_End
+  - ENG text setup
+  - JAP text setup
+  - KOR text setup
+  - database_opening_end
+  - set kor text complete
+  - player ride rocket
+  - TIMES UP
+  - TUTORIAL 2 CLOSE
+  - equal
+  - false
+  - Option On
+  - Option Off
+  - CN text setup
+  - German text setup
+  - Russian text setup
+  - call ad in
+  - French text setup
+  - Arial Font
+  - Nanum Font
